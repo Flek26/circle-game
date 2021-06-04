@@ -734,7 +734,7 @@ function buildGameCanvas(){
 		resultContainer.addChild(resultShareTxt, buttonFacebook, buttonTwitter, buttonWhatsapp);
 	}
 	
-	canvasContainer.addChild(bg, bgP, mainContainer, gameContainer, resultContainer, confirmContainer, optionsContainer, buttonSettings, guideline);
+	canvasContainer.addChild(mainContainer, gameContainer, resultContainer, confirmContainer, optionsContainer, buttonSettings, guideline);
 	stage.addChild(canvasContainer);
 	
 	changeViewport(viewport.isLandscape);
