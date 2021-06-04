@@ -781,10 +781,10 @@ function changeCanvasViewport(){
 		}
 		
 		if(viewport.isLandscape){
-			bg.visible = true;
+			bg.visible = false;
 			bgP.visible = false;
 			
-			logo.visible = true;
+			logo.visible = false;
 			logoP.visible = false;
 			
 			logo.x = canvasW/2;
@@ -833,10 +833,10 @@ function changeCanvasViewport(){
 			popDescTxt.y = canvasH/100 * 52;
 		}else{
 			bg.visible = false;
-			bgP.visible = true;
+			bgP.visible = false;
 			
 			logo.visible = false;
-			logoP.visible = true;
+			logoP.visible = false;
 			
 			logoP.x = canvasW/2;
 			logoP.y = canvasW/100 * 60;
